@@ -4,4 +4,4 @@ Param (
 $message = "Hello World"
 )
 
-Write-Host $message
+Write-Output $message
