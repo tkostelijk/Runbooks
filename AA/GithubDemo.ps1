@@ -1,1 +1,5 @@
-Write-Output "Hello Github!"
+Param(
+  $message
+)
+
+Write-Output $message
