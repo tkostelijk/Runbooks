@@ -7,3 +7,6 @@ Write-Output $message
 
 Write-Output "I am"
 WhoAmi /all
+
+Write-Output "Hostinformation:"
+$Host
