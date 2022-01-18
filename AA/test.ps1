@@ -1,7 +1,7 @@
 # This script takes one argument
 # Test
 Param (
-$message = "Hello World"
+$message = "Hello DNB"
 )
 
 Write-Output $message
