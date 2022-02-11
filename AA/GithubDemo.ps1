@@ -8,7 +8,7 @@ Write-Output $message
 
 
 
-if($PWD -like "c:\temp\){
+if($PWD -like "c:\temp\"){
   Write-Output "This script runs on an Azure Worker"
 }
 else{
