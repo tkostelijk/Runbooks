@@ -10,3 +10,7 @@ WhoAmi /all
 
 Write-Output "Hostinformation:"
 $Host
+
+Write-Output "###############################################################"
+
+$PSPrivateMetadata
