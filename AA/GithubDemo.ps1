@@ -5,12 +5,20 @@ Param(
 
 Write-Output $message
 
-Write-Output "I am"
-WhoAmi /all
+
+if($PSPrivateMetadata){
+  Write-Output "Jobid: $($PSPrivateMetadata.JobId)"
+}
+else{
+  Write-Output "I am"
+  WhoAmi /all
+}
 
 Write-Output "Hostinformation:"
 $Host
 
-Write-Output "###############################################################"
+Write-Output "11111111111111111111111111"
+$PSPrivateMetadata.Name
 
-$PSPrivateMetadata
+Write-Output "22222222222222222222222222"
+$PSPrivateMetadata.Value
