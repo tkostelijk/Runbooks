@@ -19,4 +19,3 @@ else{
 
 Write-Output "Hostinformation:"
 $Host
-
